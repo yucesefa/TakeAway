@@ -1,4 +1,6 @@
-﻿namespace TakeAway.WebUI.Dtos.IdentityDtos
+﻿using TakeAway.WebUI.Dtos.IdentityDtos;
+
+namespace TakeAway.WebUI.Services.IdentityServices
 {
     public interface IIdentityService
     {

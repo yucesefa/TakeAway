@@ -4,11 +4,12 @@ namespace TakeAway.IdentityServer.Tools
 {
     public class TokenResponseViewModel
     {
-        public TokenResponseViewModel(DateTime expireDate, string token)
+        public TokenResponseViewModel(string token, DateTime expireDate)
         {
-            ExpireDate = expireDate;
             Token = token;
+            ExpireDate = expireDate;
         }
+
         public string Token { get; set; }
         public DateTime ExpireDate { get; set; }
     }
